@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Factorial</title>
+	</head>
+	<body>
+		<?php
+			$no=5;
+			$fib=0;
+			$x1=0;
+			$x2=1;
+			for($i=1;$i<=$no;$i++)
+			{
+				$fib=$x1+$x2;
+				echo $fib;	
+				$x1=$x2;
+				$x2=$fib;
+			}
+		?>
+	</body>
+</html>
